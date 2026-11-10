@@ -131,67 +131,78 @@ Donde `i` es la tasa mensual y `n` el numero de cuotas. En MySQL los valores de 
 ### 1. Ejecutar el proyecto
 Abrir el proyecto y darle Run (F6). Abajo se abre la ventana Output con el menu de inicio.
 
- <img width="957" height="349" alt="image" src="https://github.com/user-attachments/assets/c359160d-615a-48d6-bc98-c3a83ee8ab78" />
+ <img width="957" height="349" alt="image" src="https://github.com/user-attachments/assets/36cf79fb-405b-438f-80db-079c7dbba3b4" />
+
 
 
 ### 2. Iniciar sesion
 Elegir `1- Iniciar sesion` y escribir documento y clave.
 El primer usuario es el administrador: documento `1000000001`, clave `admin123`.
 
-<img width="435" height="288" alt="image" src="https://github.com/user-attachments/assets/0e214b2f-c264-489d-a4da-df55341b1517" />
+<img width="435" height="288" alt="image" src="https://github.com/user-attachments/assets/a1921c76-b6e5-47c9-9756-d5abff21527d" />
+
 
 
 ### 3. Menu del administrador
 Muestra todos los modulos: empleados, clientes, solicitudes, prestamos, pagos y reportes.
 
-<img width="476" height="483" alt="image" src="https://github.com/user-attachments/assets/dd00c8c6-3648-4233-96fa-80318edf7d68" />
+<img width="476" height="483" alt="image" src="https://github.com/user-attachments/assets/e3feb5cc-8d2d-4349-b888-e0a14f729eed" />
+
 
 
 ### 4. Registrar un empleado
 Empleados > `1- Agregar`. Se pide documento, nombre, correo, telefono, rol, clave y salario.
 
-<img width="550" height="546" alt="image" src="https://github.com/user-attachments/assets/0d2eee00-2f0b-42d8-973d-592b63f97545" />
+<img width="550" height="546" alt="image" src="https://github.com/user-attachments/assets/d77c59fb-e68f-4557-af54-5cb90a333e79" />
+
 
 ### 5. Registrar un cliente
 Clientes > `1- Agregar`. Se pide documento, nombre, correo, telefono, clave y direccion.
 
-<img width="848" height="697" alt="image" src="https://github.com/user-attachments/assets/bf34ec06-91fe-431d-8f12-f6c51b9d00f6" />
+<img width="848" height="697" alt="image" src="https://github.com/user-attachments/assets/07d2846f-f8ab-4d0a-baa6-1fb8ec750e6f" />
+
 
 
 ### 6. Registrar una solicitud
 Solicitudes > `1- Registrar solicitud`. Se escribe el documento del cliente, el monto y el numero de cuotas.
 
-<img width="450" height="683" alt="image" src="https://github.com/user-attachments/assets/51e3598f-374b-4533-ba4f-4905e14d23ab" />
+<img width="450" height="683" alt="image" src="https://github.com/user-attachments/assets/7195a809-4e24-4e72-8ecd-2fdf6299c0b8" />
+
 
 
 ### 7. Aprobar la solicitud
 Solicitudes > `3- Aprobar solicitud`. Se escribe el id, la tasa efectiva anual y se ve el plan de cuotas antes de confirmar.
 
-<img width="953" height="796" alt="image" src="https://github.com/user-attachments/assets/e30ec081-682b-4284-850d-c7dcac0260d8" />
+<img width="953" height="796" alt="image" src="https://github.com/user-attachments/assets/2b77bd8f-fa56-41f7-a958-cfaa34d92e26" />
+
 
 
 ### 8. Registrar un pago
 Pagos > `1- Registrar pago`. Se escribe el id del prestamo, el valor y el metodo de pago.
 
-<img width="948" height="823" alt="image" src="https://github.com/user-attachments/assets/ad8374b3-6d30-4ade-a714-8c2ae6368c27" />
+<img width="948" height="823" alt="image" src="https://github.com/user-attachments/assets/d8a7f285-daca-402a-aa4e-ba3e86867ffe" />
+
 
 
 ### 9. Reportes
 Reportes > escoger una opcion (cartera, mora, recaudo, morosos...).
 
-<img width="692" height="781" alt="image" src="https://github.com/user-attachments/assets/df82b00b-7bfc-468c-850c-c0ff33a70346" />
+<img width="692" height="781" alt="image" src="https://github.com/user-attachments/assets/e0034938-34e4-4c07-811e-3f03084687d7" />
+
 
 
 ### 10. Menu del cliente
 Al entrar con un cliente solo aparecen sus consultas: prestamos, plan de cuotas, pagos y solicitudes.
 
-<img width="439" height="449" alt="image" src="https://github.com/user-attachments/assets/65759bbf-6d91-473e-9235-a9c4d33fc334" />
+<img width="439" height="449" alt="image" src="https://github.com/user-attachments/assets/40c967fb-3cdb-4b40-9a10-37fb1cd7d4e8" />
+
 
 
 ### 11. Base de datos
 Tablas de `crediya_db` vistas desde MySQL Workbench.
 
-<img width="1032" height="850" alt="image" src="https://github.com/user-attachments/assets/451eaabf-7fcf-4e86-8929-4fd3e71450eb" />
+<img width="1032" height="850" alt="image" src="https://github.com/user-attachments/assets/5e47e3aa-4b6c-4b3c-9b4c-e9e6b064ce1d" />
+
 
 
 ### Recomendaciones
