@@ -187,7 +187,7 @@ Pagos > `1- Registrar pago`. Se escribe el id del prestamo, el valor y el metodo
 ### 9. Reportes
 Reportes > escoger una opcion (cartera, mora, recaudo, morosos...).
 
-<img width="692" height="781" alt="image" src="https://github.com/user-attachments/assets/e0034938-34e4-4c07-811e-3f03084687d7" />
+<img width="692" height="781" alt="image" src="https://github.com/user-attachments/assets/d84d18c9-f91d-47ec-adbd-adda885020e6" />
 
 
 
