@@ -1,0 +1,6 @@
+target/
+*.dat
+README.md
+*.png
+*.jpg
+*.jpeg
