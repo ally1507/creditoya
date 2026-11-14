@@ -75,7 +75,7 @@ public class PagoController {
         mostrar(dao.listarPorPrestamo(ingreso.pedirIdPrestamo()), "El prestamo no tiene pagos");
     }
 
-    /** Mtdo para ver los pagos entre dos fechas */
+    /** Mtdo para ver los pagos entre dos fechas examen */
     private void entreFechas() {
         mensajes.informativo("===============Modulo pagos entre fechas===============");
         LocalDate desde = ingreso.pedirFecha("Fecha inicial");

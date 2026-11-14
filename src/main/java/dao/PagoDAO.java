@@ -20,7 +20,7 @@ public class PagoDAO implements IPagoDAO {
 
     Conexion c = new Conexion();
 
-    /** Mtdo para guardar el pago y abonar las cuotas */
+    /** Mtdo para guardar el pago y abonar las cuotas examen*/
     @Override
     public boolean registrar(Pago pago, Prestamo prestamo, List<Cuota> cuotasAbonadas) {
         String sqlPago = "insert into pagos(prestamo_id, empleado_id, fecha_pago, monto, metodo, observaciones) values (?,?,?,?,?,?)";
@@ -57,7 +57,7 @@ public class PagoDAO implements IPagoDAO {
         return false;
     }
 
-    /** Mtdo para traer los pagos de un prestamo */
+    /** Mtdo para traer los pagos de un prestamo examen*/
     @Override
     public List<Pago> listarPorPrestamo(int prestamoId) {
         List<Pago> pagos = new ArrayList<>();
@@ -93,7 +93,7 @@ public class PagoDAO implements IPagoDAO {
         return pagos;
     }
 
-    /** Mtdo para traer los pagos entre fechas */
+    /** Mtdo para traer los pagos entre fechas Examen */ 
     @Override
     public List<Pago> listarPorFechas(LocalDate desde, LocalDate hasta) {
         List<Pago> pagos = new ArrayList<>();

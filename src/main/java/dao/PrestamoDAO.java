@@ -98,7 +98,7 @@ public class PrestamoDAO implements IPrestamoDAO {
         }
     }
 
-    /** Mtdo para buscar un prestamo con sus cuotas */
+    /** Mtdo para buscar un prestamo con sus cuotas examen */
     @Override
     public Prestamo buscar(int id) {
         String sql = SELECT_PRESTAMO + "where pr.id=?";

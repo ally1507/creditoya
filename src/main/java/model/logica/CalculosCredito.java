@@ -32,7 +32,7 @@ public class CalculosCredito {
         return redondear(monto * i / (1 - Math.pow(1 + i, -cuotas)));
     }
 
-    /**  armar el plan de cuotas */
+    /**  armar el plan de cuotas  */
     public List<Cuota> generarPlan(double monto, double tasaMensual, int cuotas, LocalDate fechaInicio) {
         double i = tasaMensual / 100;
         double cuotaFija = calcularCuotaFija(monto, tasaMensual, cuotas);
@@ -69,7 +69,7 @@ public class CalculosCredito {
         return p;
     }
 
-    /** repartir un pago entre las cuotas */
+    /** repartir un pago entre las cuotas examen1 */
     public List<Cuota> aplicarPago(Prestamo p, double monto, LocalDate hoy) {
         if (p.getEstado() == EstadoPrestamo.PAGADO) {
             throw new IllegalArgumentException("El prestamo ya esta pagado");
